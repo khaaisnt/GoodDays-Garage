@@ -5,7 +5,7 @@ import Logo from "/public/GoodDays-Logo.png";
 export default function Navbar() {
   return (
     <>
-      <nav className="p-[12px] border-b border-[#D9D9D9] border-[2px] shadow-lg">
+      <nav className="p-[12px] border-b border-[#D9D9D9] border-[2px] shadow-lg sticky top-0 bg-white z-50">
         <div className="flex items-center">
           <Image
             src={Logo}
