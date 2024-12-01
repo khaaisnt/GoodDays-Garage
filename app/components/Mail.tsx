@@ -12,16 +12,16 @@ export default function Mail() {
             Subscribe to get special offers, free giveaways, and once in a
             lifetime deals
           </h2>
-          <div className="flex justify-center">
+            <div className="flex justify-center">
             <input
               type="text"
               placeholder="Enter your email"
-              className="border-[1px] border-black py-[15px] px-[20px] placeholder:text-[24px] w-[400px] text-[15px]"
+              className="border-[1px] border-black py-[10px] px-[15px] placeholder:text-[18px] w-[300px] text-[12px]"
             />
-            <button className="py-[15px] px-[30px] uppercase text-[24px] bg-[#5F5D5D] border-[1px] border-black hover:bg-[#DF1F24] duration-200 text-white">
+            <button className="py-[10px] px-[20px] uppercase text-[18px] bg-[#5F5D5D] border-[1px] border-black hover:bg-[#DF1F24] duration-200 text-white">
               Subscribe
             </button>
-          </div>
+            </div>
         </div>
       </div>
     </>
