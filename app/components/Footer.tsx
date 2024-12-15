@@ -5,21 +5,21 @@ import Logo from "/public/GoodDays-Logo.png";
 export default function Footer() {
   return (
     <>
-      <footer className="px-[200px] border-t border-1 border-black">
-        <div className="flex gap-x-[50px]">
+      <footer className="px-4 md:px-16 lg:px-32 xl:px-48 border-t border-1 border-black">
+        <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-12">
           <div>
-            <Image src={Logo} alt="gambar" className="mt-[17px]" />
+            <Image src={Logo} alt="gambar" className="mt-4 md:mt-6" />
           </div>
-          <div className="mt-[72px]">
-            <h5 className="text-[18px] font-medium mb-[16px]">Corporate</h5>
-            <ul className="text-[18px] text-[#5F5D5D] font-medium">
-              <li className="mb-[15px]">
-                <a href="">Shiping & Returns</a>
+          <div className="mt-4 md:mt-18">
+            <h5 className="text-lg font-medium mb-4">Corporate</h5>
+            <ul className="text-lg text-gray-600 font-medium">
+              <li className="mb-4">
+                <a href="">Shipping & Returns</a>
               </li>
-              <li className="mb-[15px]">
+              <li className="mb-4">
                 <a href="">About us</a>
               </li>
-              <li className="mb-[127px]">
+              <li className="mb-32">
                 <a href="">Data Preferences</a>
               </li>
             </ul>
