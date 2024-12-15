@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Man from "/public/ManLogin.png";
-import User from "/public/User.svg";
+import User from "/public/user.svg";
 import Mail from "/public/sms.svg";
 import Phone from "/public/call.svg";
 import Lock from "/public/lock-circle.svg";

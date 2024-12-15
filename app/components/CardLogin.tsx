@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Man from "/public/ManLogin.png";
-import User from "/public/User.svg";
+import User from "/public/user.svg";
 import Lock from "/public/lock-circle.svg";
 import Eye from "/public/eye.svg";
 import EyeOff from "/public/eye-off.svg";
